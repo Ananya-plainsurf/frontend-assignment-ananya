@@ -2,7 +2,7 @@ import React from "react";
 import popoverStyle from "./popover.module.css";
 import { filterType } from "@utilities/constants";
 import * as Popover from "@radix-ui/react-popover";
-import styles from "./Popover.module.css";
+import styles from "./popover.module.css";
 
 const PopOver = ({ children, handleFilter, type }) => {
   return (
