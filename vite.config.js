@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/frontend-assignment-ananya",
   resolve: {
     alias: {
       "@components": "/src/components",
